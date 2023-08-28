@@ -1,0 +1,66 @@
+body {
+  background-color: whitesmoke;
+}
+
+.todo-list {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow:
+  /* The top layer shadow */
+      0 1px 1px rgba(0,0,0,0.15),
+          /* The second layer */
+      0 10px 0 -5px #eee,
+          /* The second layer shadow */
+      0 10px 1px -4px rgba(0,0,0,0.15),
+          /* The third layer */
+      0 20px 0 -10px #eee,
+          /* The third layer shadow */
+      0 20px 1px -9px rgba(0,0,0,0.15);
+  padding: 30px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
+}
+
+.footer {
+  background-color: #333; /* Background color of the footer */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around the content within the footer */
+  text-align: center; /* Center-align the content */
+}
+
+.main-content {
+  width: 80%; /* Set the width of the main content area */
+  max-width: 1200px; /* Limit the maximum width for larger screens */
+  margin: 0 auto; /* Center the main content horizontally */
+  padding: 20px; /* Add padding around the main content */
+  background-color: #f7f7f7; /* Background color of the main content area */
+}
+/* Styling for list items within the main content */
+.main-content li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
