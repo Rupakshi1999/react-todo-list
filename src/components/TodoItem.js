@@ -1,9 +1,9 @@
 
-      function TodoItem() {
+      function TodoItem(props) {
         return (
          <div className = "todo-item">      
-            <input type = "checkbox" />
-            <p>placeholder text here</p>
+            <input type = "checkbox" checked={props.item.completed? true:false}/>
+            <p>{props.item.text}</p>
             </div>
         );
       }
