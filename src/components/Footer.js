@@ -1,6 +1,6 @@
 function Footer() {
     return (
-     <footer className="footer">this is footer</footer>
+     <footer className="footer">Created by @rupakshi1999</footer>
     );
   }
   

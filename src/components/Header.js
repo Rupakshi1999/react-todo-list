@@ -2,7 +2,7 @@ import './Style.css';
 
 function Header() {
     return (
-     <header className = "navbar">this is header</header>
+     <header className = "navbar">TODO list</header>
     );
   }
   

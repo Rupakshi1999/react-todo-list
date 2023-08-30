@@ -64,3 +64,37 @@ input[type=checkbox]:focus {
 .main-content li {
   margin-bottom: 10px; /* Add spacing between list items */
 }
+
+/* Common button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Login button styles */
+.login-button {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+}
+
+/* Logout button styles */
+.logout-button {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
